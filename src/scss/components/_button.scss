@@ -1,0 +1,32 @@
+.primaryButton {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  width: 5%;
+  padding: 5px 0;
+
+  &:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+
+  &[disabled] {
+    color: #aaa;
+    cursor: not-allowed;
+  }
+}
+
+.secondaryButton {
+  color: $textColor;
+  padding: 5px 0;
+
+  &:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+
+  &[disabled] {
+    color: $hoverColor;
+    cursor: not-allowed;
+  }
+}

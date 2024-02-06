@@ -1,0 +1,21 @@
+#search {
+  > input {
+    color: $textColor;
+    background-color: $backgroundColor;
+    margin: 50px 70px;
+    width: 70%;
+    height: 30px;
+    border: 1px solid $textColor;
+    border-radius: 10px;
+    padding-left: 15px;
+    font-size: 20px;
+  }
+
+  input:focus {
+    outline: none;
+  }
+
+  input::placeholder {
+    color: $textColor;
+  }
+}

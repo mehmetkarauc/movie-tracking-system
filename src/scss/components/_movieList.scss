@@ -1,0 +1,11 @@
+#dashboard {
+  @extend .container-fluid;
+
+  #movieList {
+    @extend .row;
+
+    > div {
+      @extend .col-md-2;
+    }
+  }
+}
