@@ -18,6 +18,8 @@ Styling Tools: SCSS was used for styling to take advantage of its features such 
 
 ## Challenges Faced:
 
+Image URL Error: A challenge I encountered was that some of the movie poster URL's returned a '404 Not Found' error. I have tried to catch the error and ensure it doesn't error on the console by replacing it with an image placeholder however the error code still exists.
+
 Responsive Design: A significant challenge was encountered while ensuring consistent image sizing across different screen sizes, particularly with placeholder images for missing posters. Adjusting the sizes of the images to match and maintain responsiveness posed difficulties, especially for the 'Image Not Found' poster. Ultimately, the decision was made to retain the original size.
 
 Movie Modal Component: Implementing the modal overlay to display additional information about each movie presented its own set of challenges. Achieving the desired behaviour of the modal as an overlay, along with implementing the close functionality triggered by clicking the 'X' button, required careful consideration and testing.
