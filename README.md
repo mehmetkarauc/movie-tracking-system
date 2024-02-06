@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+## Project Description:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Movie Tracking System is a web application designed to help users track and discover movies. It features a search functionality that allows users to search for specific movies and filter them based on various genres.
 
-## Available Scripts
+## Design Decisions:
 
-In the project directory, you can run:
+User Interface Design: The project prioritises a user-friendly design while also focusing on aesthetics to create an enjoyable browsing experience. Careful consideration was given to colour schemes, and layout to ensure readability and visual appeal.
 
-### `npm start`
+Architecture: The project is organised in a component structure with components collectively creating a page design. There also is a page folder to store all the pages within the project and within each page, the components are called to create the page. While React's philosophy encourages reusable components, the decision was made to prioritise simplicity and clarity in component design for this project.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Responsive Design: Bootstrap was utilised to create a responsive layout that adapts seamlessly to different screen sizes and devices. Efforts were made to ensure that the application remains functional and visually appealing across various screen sizes.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technology Used:
 
-### `npm test`
+Frontend Frameworks & Libraries: I utilised ReactJS as a frontend library.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Styling Tools: SCSS was used for styling to take advantage of its features such as variables, and nested rules, enhancing maintainability and organisation in the styling code. Bootstrap was also employed for its extensive collection of CSS components and utilities, speeding up the development process and ensuring a consistent design language.
 
-### `npm run build`
+## Challenges Faced:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Responsive Design: A significant challenge was encountered while ensuring consistent image sizing across different screen sizes, particularly with placeholder images for missing posters. Adjusting the sizes of the images to match and maintain responsiveness posed difficulties, especially for the 'Image Not Found' poster. Ultimately, the decision was made to retain the original size.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Movie Modal Component: Implementing the modal overlay to display additional information about each movie presented its own set of challenges. Achieving the desired behaviour of the modal as an overlay, along with implementing the close functionality triggered by clicking the 'X' button, required careful consideration and testing.
